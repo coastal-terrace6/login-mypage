@@ -1,0 +1,114 @@
+
+/*頭*/
+body{
+    margin:0 auto;
+}
+header{
+    width:100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+header .login{
+    float: right;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+/*メイン*/
+main{
+    clear: left;
+    width: 100%;
+}
+
+form{
+    text-align: center;
+    margin: 0 auto;
+    border: lightgray solid 2px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+form .form_contents{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.error_messafe{
+    font-size: 20px;
+    background-color: rgb(226, 156, 156);
+    color: red;
+    margin-bottom: 25px;
+
+}
+
+.mail{
+    padding-bottom: 25px;
+}
+
+.mail label{
+    float: left;
+    padding-left: 120px;
+
+}
+
+.password{
+    padding-bottom: 25px;
+}
+
+.password label{
+    float: left;
+    padding-left: 120px;
+}
+
+.login_check{
+    padding-bottom: 25px;
+}
+
+.login_check label{
+    float: left;
+    padding-left: 120px;
+}
+
+.loginbutton{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.submit{
+    margin: 25px;
+    border: 1px solid lightgray;
+    padding: 6px 60px 4px 60px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/*足*/
+footer{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+    bottom: 0;
+}
